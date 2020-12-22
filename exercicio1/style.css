@@ -1,0 +1,52 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+.cabecalho{
+    width: 750px;
+    height: 100px;
+    background-color:#b19cd9;
+    margin:0 auto;
+}
+.cabecalho h1{
+    margin-left: 25px;
+    margin-top:5px;
+    color: white;
+}
+
+.componentes{
+    display: flex;
+    justify-content: center;
+}
+.menuEsquerdo{
+    width: 150px;
+    height: 150px;
+    background:#ff6961
+}
+.menuEsquerdo h3{
+    margin-left: 25px;
+    margin-top:5px;
+    color: white;
+}
+.menuDireito{
+    width: 150px;
+    height: 150px;
+    background:#5D9B9B;
+}
+.menuDireito h3{
+    margin-left: 25px;
+    margin-top:5px;
+    color: white;
+}
+.content{
+    width: 450px;
+    height: 400px;
+    background:#add8e6;
+}
+.content h1{
+    margin-left: 25px;
+    margin-top:5px;
+    color: white;
+}

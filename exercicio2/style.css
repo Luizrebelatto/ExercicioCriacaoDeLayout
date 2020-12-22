@@ -1,0 +1,107 @@
+*{
+	margin:0;
+	padding:0;
+    box-sizing:border-box;
+}
+
+.cabecalho{
+    height: 150px;
+    background-color:#b19cd9;
+    display: flex;
+}
+.cabecalho h1{
+    color:white;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.componentes{
+    display: flex;
+}
+.content{
+    height: 80px;
+    background:#800000;
+    display: flex;
+}
+.content h1{
+    margin-left: 25px;
+    margin-top:5px;
+    color: white;
+    text-align: center;
+}
+.rodape{
+    height:50px;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    background-color:#b19cd9;
+}
+.rodape h3{
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+.meio{
+    width: 60%;
+    background:#DDD9CE;
+    padding-bottom: 250px;
+    margin:auto;
+}
+.meio input{
+    margin-bottom: 8px;
+}
+.msg{
+    padding-bottom:30px;
+}
+.menu{
+    width: 20%;
+    background:#DDD9CE;
+}
+.ladoEsquerdo{
+    width: 20%;
+    background:#DDD9CE;
+}
+.formulario{
+    margin-left: 25%;
+}
+.menu-desktop{
+    float:right
+}
+.menu-desktop li{
+	display: inline-block;
+	margin:0 15px;
+}
+.menu-desktop a{
+	text-decoration: none;
+	color: white;
+	opacity: 0.6;
+}
+.menu-desktop a:hover{
+	opacity: 1;
+}
+.menu{
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.menu li{
+    margin-bottom: 15px;
+    margin-left: 25px;
+}
+table, th, td,tr {
+    border: 2.5px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 245px;
+    height: 70px;
+}
+.menu a{
+	text-decoration: none;
+	color: black;
+	opacity: 0.6;
+}
+.menu-desktop a:hover{
+	opacity: 1;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boletim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Boletim</h1>
+    </header>
+    <section>
+        <div>
+            <p>Nome:                                                
+                <input type="text" name="txtnome" id="txtnome" placeholder="Digite o Nome">
+            </p>
+            <p>1º Semestre:   
+                <input type="number" name="txtprimeirosemestre" id="txtprimeirosemestre" min="0" placeholder="Digite 1ª Nota">
+            </p>
+            <p>2º Semestre: 
+                <input type="number" name="txtsegundosemestre" id="txtsegundosemestre" min="0" placeholder="Digite a 2ª nota">
+            </p>
+            <p>Frequência   
+                <input type="number" name="txtfrequecia" id="txtfrequecia" min="0" placeholder="Digite a frequência">
+            </p>
+            <p>
+                <input type="button" value="Gerar Boletim" onclick="gerar()">
+            </p>
+        </div>
+        <div id="resultado">
+            Preencha os dados acima para ver Resultado!
+        </div>
+
+        <div id="container">
+            Preencha os dados acima para ver Resultado!
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
